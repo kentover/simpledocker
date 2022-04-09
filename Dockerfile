@@ -9,7 +9,7 @@ RUN apt-get -y update
 RUN apt-get -y install apache2
 
 #Example of creating html file
-RUN echo 'Hello from my Docker today and nice to meet you' > /var/www/html/index.html
+RUN echo 'Hello from my Docker today and nice to meet you 09.04.2022' > /var/www/html/index.html
 
 #what commands shoud be perform
 CMD ["/usr/sbin/apache2ctl", "-DFOREGROUND"]
